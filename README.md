@@ -16,6 +16,21 @@ Este proyecto utiliza Power BI para visualizar la evolución de diferentes indic
 - Predicciones basadas en tendencias históricas.  
 - Exportación de reportes en formatos accesibles.  
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Fuentes de Datos] --> B[(SQL Server - Base de datos transaccional)]
+    A --> C[(CSV / Excel - Datasets importados)]
+    B & C --> D[Power BI Desktop - Archivo .pbix]
+    D --> E[Modelo de Datos DAX - Medidas / Columnas calculadas]
+    E --> F[Dashboard Interactivo - Evolucion en el tiempo]
+    F --> G[Visualizaciones temporales - Tendencias historicas]
+    F --> H[Predicciones basadas en tendencias]
+    F --> I[Filtros y Segmentadores - Slicer por periodo / indicador]
+    D --> J[Power BI Service - Publicacion y compartir online]
+```
+
 ## 🚀 Tecnologías utilizadas  
 - Power BI  
 - SQL Server  
@@ -32,21 +47,6 @@ Este proyecto utiliza Power BI para visualizar la evolución de diferentes indic
 👨‍💻 **Alejandro De Mendoza**
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Fuentes de Datos] --> B[(SQL Server - Base de datos transaccional)]
-    A --> C[(CSV / Excel - Datasets importados)]
-    B & C --> D[Power BI Desktop - Archivo .pbix]
-    D --> E[Modelo de Datos DAX - Medidas / Columnas calculadas]
-    E --> F[Dashboard Interactivo - Evolucion en el tiempo]
-    F --> G[Visualizaciones temporales - Tendencias historicas]
-    F --> H[Predicciones basadas en tendencias]
-    F --> I[Filtros y Segmentadores - Slicer por periodo / indicador]
-    D --> J[Power BI Service - Publicacion y compartir online]
-```
 
 ## Autor
 
