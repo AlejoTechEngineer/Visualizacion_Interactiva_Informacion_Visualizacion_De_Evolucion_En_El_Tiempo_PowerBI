@@ -1,6 +1,13 @@
+<div align="center">
+
 # 📌 Visualización Interactiva de Información - Evolución en el Tiempo (Power BI)  
 
-## 📖 Descripción  
+## 📖 Descripción
+
+</div>
+
+---
+
 Este proyecto utiliza Power BI para visualizar la evolución de diferentes indicadores a lo largo del tiempo, permitiendo la exploración de tendencias en múltiples sectores.
 
 ## 🛠️ Funcionalidades  
@@ -23,3 +30,12 @@ Este proyecto utiliza Power BI para visualizar la evolución de diferentes indic
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
